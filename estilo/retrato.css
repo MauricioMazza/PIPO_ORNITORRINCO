@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ilustra {
+    align-self: center;
+}
+
+p {
+    padding: 20px;
+}

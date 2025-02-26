@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 40px;
+}
+
+p {
+    padding-right: 50px;
+}
