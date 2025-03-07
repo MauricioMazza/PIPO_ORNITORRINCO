@@ -16,7 +16,11 @@
 <body>
     <header>
         <div>
-            <img src="img/img-07.jpeg" alt="" class="ilustra">
+            <picture>
+                <source media="(min-width: 650px)" srcset="img/img-07.jpeg">
+                <source media="(min-width: 350px)" srcset="img/img-07b.jpg">
+                <img src="img/img-07c.jpg" alt="" style="width: 90wv;">
+            </picture>
         </div>
         <div>
             <div>
@@ -31,7 +35,9 @@
                 </p>
             </div>
             <div>
-                <a href="pagina_08.html"><img src="img/seta-png.png" alt=""></a>
+                <div class="botao">
+                    <a href="pagina_08.html"><img src="img/seta-png.png" alt=""></a>
+                </div>
             </div>
         </div>            
     </header>

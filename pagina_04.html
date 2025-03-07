@@ -16,7 +16,11 @@
 <body>
     <header>
         <div>
-            <img src="img/img-04.jpeg" alt="" class="ilustra">
+            <picture>
+                <source media="(min-width: 650px)" srcset="img/img-04.jpeg">
+                <source media="(min-width: 350px)" srcset="img/img-04b.jpg">
+                <img src="img/img-04c.jpg" alt="" style="width: 90wv;">
+            </picture>
         </div>
         <div>
             <div>
@@ -33,7 +37,9 @@
                 <p>— Acho que você está assim porque não come direito!</p>
             </div>
             <div>
-                <a href="pagina_05.html"><img src="img/seta-png.png" alt=""></a>
+                <div class="botao">
+                    <a href="pagina_05.html"><img src="img/seta-png.png" alt=""></a>
+                </div>
             </div>        
         </div>
      
