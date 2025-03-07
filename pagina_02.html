@@ -16,12 +16,19 @@
 <body>
     <header>
         <div>
-            <img src="img/img-02.jpeg" alt="" class="ilustra">
+            <picture>
+                <source media="(min-width: 650px)" srcset="img/img-02.jpeg">
+                <source media="(min-width: 350px)" srcset="img/img-02b.jpg">
+                <img src="img/img-02c.jpg" alt="" style="width: 90wv;">
+            </picture>
         </div>
         <div>
             <p>— <strong>Comer dá muito trabalho!</strong> — resmungava ele sempre que sua mãe colocava um prato de minhocas suculentas e pequenos crustáceos na sua frente.<br>
-            </p>            
-            <a href="pagina_03.html"><img src="img/seta-png.png" alt=""></a>
+            </p>
+            </p>
+            <div class="botao">
+                <a href="pagina_03.html"><img src="img/seta-png.png" alt=""></a>
+            </div>           
         </div>            
     </header>
 </body>

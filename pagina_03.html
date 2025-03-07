@@ -16,12 +16,18 @@
 <body>
     <header>
         <div>
-            <img src="img/img-03.jpeg" alt="" class="ilustra">
+            <picture>
+                <source media="(min-width: 650px)" srcset="img/img-03.jpeg">
+                <source media="(min-width: 350px)" srcset="img/img-03b.jpg">
+                <img src="img/img-03c.jpg" alt="" style="width: 90wv;">
+            </picture>
         </div>
         <div>
             <p>Preocupada, <strong>Dona Olívia</strong>, a mamãe ornitorrinco, tentou de tudo para convencer <strong>Pipo</strong> a se alimentar bem. Mas ele sempre escapava para brincar com seus amigos: <strong>Lili</strong>, a tartaruga esperta, e <strong>Zeca</strong>, o sapo pulador.<br>
-            </p>            
-            <a href="pagina_04.html"><img src="img/seta-png.png" alt=""></a>
+            </p>
+            <div class="botao">
+                <a href="pagina_04.html"><img src="img/seta-png.png" alt=""></a>
+            </div>   
         </div>            
     </header>
 </body>

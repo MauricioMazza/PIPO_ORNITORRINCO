@@ -16,13 +16,19 @@
 </head>
 <body>
     <header>
-        <div class="ilustra">
-            <img src="img/img-01.jpeg" alt="">
+        <div>
+            <picture>
+                <source media="(min-width: 650px)" srcset="img/img-01.jpeg">
+                <source media="(min-width: 350px)" srcset="img/img-01b.jpg">
+                <img src="img/img-01c.jpg" alt="" style="width: 90wv;">
+            </picture>
         </div>
         <div>
             <p>Era uma vez, na beira de um rio cristalino, um ornitorrinco chamado <strong>Pipo</strong>. Ele era muito curioso e adorava brincar na água, mas tinha um grande problema: <strong>não gostava de comer.</strong>
             </p>
-            <a href="pagina_02.html"><img src="img/seta-png.png" alt=""></a>
+            <div class="botao">
+                <a href="pagina_02.html"><img src="img/seta-png.png" alt=""></a>
+            </div>            
         </div>            
     </header>
 </body>
